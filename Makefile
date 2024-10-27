@@ -56,7 +56,7 @@ ANDROID_BUILD_TOOLS    ?= $(ANDROID_HOME)/build-tools/35.0.0
 ANDROID_PLATFORM_TOOLS ?= $(ANDROID_HOME)/platform-tools
 
 # Android project configuration variables
-PROJECT_NAME           ?= raylib-android
+PROJECT_NAME           ?= minisweeper
 PROJECT_LIBRARY_NAME   ?= main
 PROJECT_BUILD_ID       ?= android
 PROJECT_BUILD_PATH     ?= build\$(PROJECT_BUILD_ID).$(PROJECT_NAME)
@@ -70,15 +70,15 @@ PROJECT_SOURCE_FILES   ?= src/*.cpp
 PROJECT_SOURCE_DIRS     = $(sort $(dir $(PROJECT_SOURCE_FILES)))
 
 # Android app configuration variables
-APP_LABEL_NAME         ?= rgame
-APP_COMPANY_NAME       ?= raylib
-APP_PRODUCT_NAME       ?= rgame
+APP_LABEL_NAME         ?= minisweeper
+APP_COMPANY_NAME       ?= jqntn
+APP_PRODUCT_NAME       ?= minisweeper
 APP_VERSION_CODE       ?= 1
 APP_VERSION_NAME       ?= 1.0
-APP_ICON_LDPI          ?= $(RAYLIB_PATH)\logo\raylib_36x36.png
-APP_ICON_MDPI          ?= $(RAYLIB_PATH)\logo\raylib_48x48.png
-APP_ICON_HDPI          ?= $(RAYLIB_PATH)\logo\raylib_72x72.png
-APP_SCREEN_ORIENTATION ?= landscape
+APP_ICON_LDPI          ?= logo\36.png
+APP_ICON_MDPI          ?= logo\48.png
+APP_ICON_HDPI          ?= logo\72.png
+APP_SCREEN_ORIENTATION ?= portrait
 APP_KEYSTORE_PASS      ?= raylib
 
 # Library type used for raylib: STATIC (.a) or SHARED (.so/.dll)
