@@ -12,7 +12,7 @@
 * Latest OpenJDK 21 LTS from Microsoft at `C:\open-jdk`
 * Latest Android NDK LTS at `C:\android-ndk`
 * Android SDK at `C:\android-sdk` (`build-tools;35.0.0`, `platforms;android-34`, `platform-tools`)
-* _or just run the helper script `get-android-tools.bat`_
+* _or just run `get-android-tools.bat`_
 
 ```cmd
 > make
